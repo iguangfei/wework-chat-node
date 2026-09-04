@@ -1,6 +1,6 @@
 # wework-chat-node
 
-[![CI](https://github.com/Garfield-yin/wework-chat-node/actions/workflows/ci.yml/badge.svg)](https://github.com/Garfield-yin/wework-chat-node/actions/workflows/ci.yml)
+[![CI](https://github.com/iguangfei/wework-chat-node/actions/workflows/ci.yml/badge.svg)](https://github.com/iguangfei/wework-chat-node/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/wework-chat-node.svg)](https://www.npmjs.com/package/wework-chat-node)
 [![node](https://img.shields.io/node/v/wework-chat-node.svg)](https://www.npmjs.com/package/wework-chat-node)
 [![license](https://img.shields.io/npm/l/wework-chat-node.svg)](LICENSE)
@@ -169,7 +169,7 @@ for (const msg of ret.data) {
 
 - 崩溃、编译失败、`max_results` 不生效、消息解密不出来 → **[常见问题](docs/FAQ.md)**
 - 接口语义、错误码 → [企业微信官方文档](https://developer.work.weixin.qq.com/document/path/91774)
-- 还是没解决 → [提 issue](https://github.com/Garfield-yin/wework-chat-node/issues/new/choose)
+- 还是没解决 → [提 issue](https://github.com/iguangfei/wework-chat-node/issues/new/choose)
 
 > 如果你正在使用 v1.2.1 之前的版本，**强烈建议升级** —— 早期版本存在多处会导致
 > 进程 core dump 和内存无上限增长的问题，详见 [CHANGELOG](CHANGELOG.md)。

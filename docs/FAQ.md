@@ -169,7 +169,7 @@ npm run build && npm test
 
 请从[官方渠道](https://developer.work.weixin.qq.com/document/path/91774)下载 SDK。
 
-[#5]: https://github.com/Garfield-yin/wework-chat-node/issues/5
-[#6]: https://github.com/Garfield-yin/wework-chat-node/issues/6
-[#7]: https://github.com/Garfield-yin/wework-chat-node/issues/7
-[#8]: https://github.com/Garfield-yin/wework-chat-node/issues/8
+[#5]: https://github.com/iguangfei/wework-chat-node/issues/5
+[#6]: https://github.com/iguangfei/wework-chat-node/issues/6
+[#7]: https://github.com/iguangfei/wework-chat-node/issues/7
+[#8]: https://github.com/iguangfei/wework-chat-node/issues/8

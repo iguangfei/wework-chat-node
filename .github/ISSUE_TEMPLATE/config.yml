@@ -4,5 +4,5 @@ contact_links:
     url: https://developer.work.weixin.qq.com/document/path/91774
     about: 接口语义、错误码、私钥与 publickey_ver 的说明以官方文档为准
   - name: 安全问题
-    url: https://github.com/Garfield-yin/wework-chat-node/blob/main/SECURITY.md
+    url: https://github.com/iguangfei/wework-chat-node/blob/main/SECURITY.md
     about: 请不要用公开 issue 报告安全漏洞

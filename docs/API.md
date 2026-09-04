@@ -250,6 +250,6 @@ function download(fileName, params) {
 | `10010` | 数据过期 |
 | `10011` | 证书错误 |
 
-[#1]: https://github.com/Garfield-yin/wework-chat-node/issues/1
-[#5]: https://github.com/Garfield-yin/wework-chat-node/issues/5
-[#6]: https://github.com/Garfield-yin/wework-chat-node/issues/6
+[#1]: https://github.com/iguangfei/wework-chat-node/issues/1
+[#5]: https://github.com/iguangfei/wework-chat-node/issues/5
+[#6]: https://github.com/iguangfei/wework-chat-node/issues/6

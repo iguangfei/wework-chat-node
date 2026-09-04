@@ -19,12 +19,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Garfield-yin/wework-chat-node.git"
+    "url": "git+https://github.com/iguangfei/wework-chat-node.git"
   },
   "bugs": {
-    "url": "https://github.com/Garfield-yin/wework-chat-node/issues"
+    "url": "https://github.com/iguangfei/wework-chat-node/issues"
   },
-  "homepage": "https://github.com/Garfield-yin/wework-chat-node#readme",
+  "homepage": "https://github.com/iguangfei/wework-chat-node#readme",
   "keywords": [
     "WeWorkFinanceSdk",
     "wework",

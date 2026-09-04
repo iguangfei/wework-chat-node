@@ -13,7 +13,7 @@
 
 **请不要用公开 issue 报告安全漏洞。**
 
-请通过 GitHub 的 [Security Advisory](https://github.com/Garfield-yin/wework-chat-node/security/advisories/new)
+请通过 GitHub 的 [Security Advisory](https://github.com/iguangfei/wework-chat-node/security/advisories/new)
 私下提交。收到后会尽快确认并给出修复计划。
 
 ## 使用者须知

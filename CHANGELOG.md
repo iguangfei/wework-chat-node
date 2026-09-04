@@ -123,18 +123,18 @@
 - 2020-10-22 对 `10001`~`10003` 错误码增加重试策略；修复获取媒体文件数据的错误。
 - 2020-10-20 项目初始化。
 
-[Unreleased]: https://github.com/Garfield-yin/wework-chat-node/compare/v1.3.0...HEAD
-[1.3.0]: https://github.com/Garfield-yin/wework-chat-node/compare/v1.2.1...v1.3.0
-[1.2.1]: https://github.com/Garfield-yin/wework-chat-node/compare/1.2.0...v1.2.1
-[1.2.0]: https://github.com/Garfield-yin/wework-chat-node/compare/v1.1.2...1.2.0
-[1.1.2]: https://github.com/Garfield-yin/wework-chat-node/compare/v1.1.1...v1.1.2
-[1.1.1]: https://github.com/Garfield-yin/wework-chat-node/compare/v1.1.0...v1.1.1
-[1.1.0]: https://github.com/Garfield-yin/wework-chat-node/compare/v1.0.0...v1.1.0
-[1.0.0]: https://github.com/Garfield-yin/wework-chat-node/releases/tag/v1.0.0
-[#1]: https://github.com/Garfield-yin/wework-chat-node/issues/1
-[#3]: https://github.com/Garfield-yin/wework-chat-node/pull/3
-[#4]: https://github.com/Garfield-yin/wework-chat-node/issues/4
-[#5]: https://github.com/Garfield-yin/wework-chat-node/issues/5
-[#6]: https://github.com/Garfield-yin/wework-chat-node/issues/6
-[#7]: https://github.com/Garfield-yin/wework-chat-node/issues/7
-[#8]: https://github.com/Garfield-yin/wework-chat-node/issues/8
+[Unreleased]: https://github.com/iguangfei/wework-chat-node/compare/v1.3.0...HEAD
+[1.3.0]: https://github.com/iguangfei/wework-chat-node/compare/v1.2.1...v1.3.0
+[1.2.1]: https://github.com/iguangfei/wework-chat-node/compare/1.2.0...v1.2.1
+[1.2.0]: https://github.com/iguangfei/wework-chat-node/compare/v1.1.2...1.2.0
+[1.1.2]: https://github.com/iguangfei/wework-chat-node/compare/v1.1.1...v1.1.2
+[1.1.1]: https://github.com/iguangfei/wework-chat-node/compare/v1.1.0...v1.1.1
+[1.1.0]: https://github.com/iguangfei/wework-chat-node/compare/v1.0.0...v1.1.0
+[1.0.0]: https://github.com/iguangfei/wework-chat-node/releases/tag/v1.0.0
+[#1]: https://github.com/iguangfei/wework-chat-node/issues/1
+[#3]: https://github.com/iguangfei/wework-chat-node/pull/3
+[#4]: https://github.com/iguangfei/wework-chat-node/issues/4
+[#5]: https://github.com/iguangfei/wework-chat-node/issues/5
+[#6]: https://github.com/iguangfei/wework-chat-node/issues/6
+[#7]: https://github.com/iguangfei/wework-chat-node/issues/7
+[#8]: https://github.com/iguangfei/wework-chat-node/issues/8

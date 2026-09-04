@@ -1,6 +1,6 @@
 # wework-chat-node
 
-[![CI](https://github.com/Garfield-yin/wework-chat-node/actions/workflows/ci.yml/badge.svg)](https://github.com/Garfield-yin/wework-chat-node/actions/workflows/ci.yml)
+[![CI](https://github.com/iguangfei/wework-chat-node/actions/workflows/ci.yml/badge.svg)](https://github.com/iguangfei/wework-chat-node/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/wework-chat-node.svg)](https://www.npmjs.com/package/wework-chat-node)
 [![node](https://img.shields.io/node/v/wework-chat-node.svg)](https://www.npmjs.com/package/wework-chat-node)
 [![license](https://img.shields.io/npm/l/wework-chat-node.svg)](LICENSE)
