@@ -176,10 +176,10 @@ std::string GetStringOption(const Napi::Object &obj, const char *key, const char
         return fallback;
     }
     Napi::Value v = obj.Get(key);
-    if (v.IsUndefined() || v.IsNull()) {
+    if (!v.IsString()) {
         return fallback;
     }
-    return v.ToString().Utf8Value();
+    return v.As<Napi::String>().Utf8Value();
 }
 
 // 解密失败最常见的原因是私钥版本对不上，publickey_ver 指明这条消息该用哪个版本的私钥。
@@ -280,17 +280,21 @@ WeWorkChat::WeWorkChat(const Napi::CallbackInfo& info)
 
         // 必填参数缺失时直接报错，不要带着空的 corpid/secret 去 Init
         const char *required[] = {"corpid", "secret", "private_key"};
-        for (const char *key : required) {
-            if (!obj.Has(key) || !obj.Get(key).IsString()) {
+        std::string values[3];
+        for (size_t i = 0; i < 3; ++i) {
+            const char *key = required[i];
+            Napi::Value v = obj.Has(key) ? obj.Get(key) : env.Undefined();
+            if (!v.IsString()) {
                 Napi::TypeError::New(env, std::string("Missing or invalid option: ") + key)
                     .ThrowAsJavaScriptException();
                 return;
             }
+            values[i] = v.As<Napi::String>().Utf8Value();
         }
 
-        this->corpid_ = obj.Get("corpid").As<Napi::String>().Utf8Value();
-        this->secret_ = obj.Get("secret").As<Napi::String>().Utf8Value();
-        this->private_key_ = obj.Get("private_key").As<Napi::String>().Utf8Value();
+        this->corpid_ = values[0];
+        this->secret_ = values[1];
+        this->private_key_ = values[2];
 
         int64_t seq = GetNumberOption(obj, "seq", 0);
         this->seq_ = seq < 0 ? 0 : seq;
